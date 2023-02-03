@@ -1,0 +1,224 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TinhNgayHetcalDate",
+            "request": "launch",
+            "mainClass": "TinhNgayHetcalDate",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch TinhNgayHetHanBaoHanh",
+            "request": "launch",
+            "mainClass": "TinhNgayHetHanBaoHanh",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.sapxepketquaxettuyen.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.ketquaxettuyen.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.sapxepdanhsachmathang.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.timthukhoacuakythi.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.bangxephang.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.tinhtoanphanso.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.sapxepketquatuyensinh.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.baitoantuyensinh.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.hoadontiennuoc.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch HinhChuNhatLonNhat",
+            "request": "launch",
+            "mainClass": "codejava.HinhChuNhatLonNhat",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch XepHang",
+            "request": "launch",
+            "mainClass": "codejava.XepHang.XepHang",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch XepHang",
+            "request": "launch",
+            "mainClass": "codejava.XepHang",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "codejava.hoadon.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch XauDayDu",
+            "request": "launch",
+            "mainClass": "XauDayDu",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaTranXoanOcTangDan",
+            "request": "launch",
+            "mainClass": "MaTranXoanOcTangDan",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch UocSoChungLonNhat",
+            "request": "launch",
+            "mainClass": "UocSoChungLonNhat",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "xoayvongkitu.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch VongTron",
+            "request": "launch",
+            "mainClass": "VongTron",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch XauConLonNhat",
+            "request": "launch",
+            "mainClass": "XauConLonNhat",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "so0va9.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "triangle.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "hinhchunhatdonsac.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuayPhai",
+            "request": "launch",
+            "mainClass": "QuayPhai",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DayUuThe",
+            "request": "launch",
+            "mainClass": "DayUuThe",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch LopPair",
+            "request": "launch",
+            "mainClass": "loppair.LopPair",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "quanma.Main",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch quayhinhvuong",
+            "request": "launch",
+            "vmArgs": "--module-path \"E:/java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "codejava.quayhinhvuong",
+            "projectName": "test cde_3cf5baa2"
+        },
+        {
+            "type": "java",
+            "name": "Launch CapSoCoTongBangk",
+            "request": "launch",
+            "mainClass": "CapSoCoTongBangk"
+        }
+    ]
+}

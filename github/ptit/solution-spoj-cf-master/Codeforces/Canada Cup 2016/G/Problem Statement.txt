@@ -1,0 +1,45 @@
+﻿Link (in English): http://codeforces.com/contest/725/problem/G
+
+Alice và Bob hay gửi thư cho nhau. Trong bài toán này, Bob đang đứng ở nút gốc của một đồ thị dạng cây trong khi các
+phân thân của Alice đứng ở các nút khác. nút gốc mang số hiệu 0, các nút còn lại mang số hiệu từ 1 tới n.
+
+Vào một số thời điểm, các phân thân của Alice sẽ gửi thư cho Bob và đợi thư trở về. Chúng ta sẽ gọi phân thân đã gửi thư
+là người khởi tạo. Quá trình gửi thư diễn ra như sau:
+
+- Người khởi tạo gửi thư cho người đang đứng ở nút cha và bắt đầu đợi thư trả lời.
+- Khi một phân thân của Alice nhận được thư từ nút con, phân thân này gửi thư đó cho người đứng ở nút cha và đợi thư trả
+lời.
+- Khi Bob nhận được thư từ một nút con, Bob sẽ gửi thư trả lời cho nút con đó.
+- Khi một phân thân của Alice nhận được thư trả lời từ nút cha, phân thân này sẽ gửi thư trả lời cho người đang đứng ở
+nút con đã gửi thư
+- Khi người khởi tạo nhận được thư trả lời, quá trình gửi thư kết thúc.
+- Trường hợp đặc biệt: một phân thân của Alice không thể đợi 2 thư trả lời cùng một lúc, nên nếu một nút cha nhận được 
+thư từ một nút con trong khi phân thân này đang đợi thư trả lời khác, phân thân đó sẽ từ chối bức thư này và gửi trả lại
+một bức thư trả lời cho nút con đã gửi thư. Các nút con sau đó sẽ xử lý bức thư này như một bức thư trả lời bình thường.
+
+Quá trình gửi thư không mất thời gian, nhưng người nhận thư (một nút cha hoặc nút con) sẽ nhận được bức thư 1s sau khi nó
+được gửi. 
+
+Nếu một phân thân của Alice nhận được nhiều bức thư cùng lúc trong khi không đợi thư trả lời nào cả, phân thân này sẽ gửi
+lên nút cha bức thư từ người khởi tạo có chỉ số nhỏ nhất, sau đó từ chối tất cả các thư còn lại. Nếu một phân thân nhận
+được thư trả lời và thư gửi lên cùng một lúc, phân thân này sẽ xử lý thư trả lời trước, sau đó sẽ xử lý thư gửi lên ngay
+lập tức.
+
+Bạn được nhận thời điểm mà các bức thư được gửi lên từ các phân thân của Alice. Hãy tìm thời gian mà mỗi người khởi tạo
+bức thư nhận lại được thư trả lời.
+
+Bạn có thể giả định rằng nếu một phân thân muốn gửi thư trong lúc đang đợi thư trả lời khác, phân thân này sẽ tự từ chối
+thư của mình ngay lập tức.
+
+Input
+
+Dòng đầu tiên chứa 2 số n, m (1 <= n, m <= 200000), số nút con và số bức thư.
+
+Dòng thứ hai chứa n số p1, p2, ... là nút cha trực tiếp của nút 1, 2, ...
+
+Dòng thứ i trong m dòng sau chứa 2 số xi, ti (1 ≤ xi ≤ n, 1 ≤ ti ≤ 109) - chỉ số của nút con đang gửi thư lên và thời
+điểm thư được gửi lên. Các bức thư được cho theo thứ tự tăng dần của t, và các cặp (xi, ti) đều phân biệt.
+
+Output
+
+In m số nguyên trên 1 dòng - kết quả của m truy vấn gửi thư.

@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+	long long a;
+	cin>>a;
+	long long C[a];
+	for (int i=0; i<a; i++) cin>>C[i];
+	set<long long> all;
+	vector<long long> A;
+	A.push_back(0);
+	for (int i=0; i<a; i++)
+	{
+		set<long long> A2;
+		for (int j=0; j<A.size(); j++)
+		{
+			all.insert(C[i] | A[j]);
+			A2.insert(C[i] | A[j]);
+		}
+		all.insert(C[i]);
+		A2.insert(C[i]);
+		vector<long long> cax(A2.begin(), A2.end());
+		A=cax;
+	}
+	cout<<all.size();
+}

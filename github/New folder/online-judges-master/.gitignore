@@ -1,0 +1,12 @@
+# Executáveis
+*.out
+*.exe
+
+# Objetos
+*.o
+
+# Temporários
+*~
+
+# VSCode files
+.vscode

@@ -1,0 +1,7 @@
+b = 57, d = 4, a = 40000 => ans = 39444
+k*b = 10^l * x + dddd....
+		 l số d
+0 == (10^l * x + dddd ...)  (mod b)
+
+0< x < b
+length of x is at most 6

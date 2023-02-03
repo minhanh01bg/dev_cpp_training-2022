@@ -1,0 +1,52 @@
+# Bit Magic
+## Problems and notes
+1. ^ [Find first set bit](https://practice.geeksforgeeks.org/problems/find-first-set-bit/0)
+    - [Explanation](https://www.geeksforgeeks.org/position-of-rightmost-set-bit/)
+2. [Rightmost different bit](https://practice.geeksforgeeks.org/problems/rightmost-different-bit/0)
+    - [Explanation](https://www.geeksforgeeks.org/position-rightmost-different-bit/)
+3. ^ [Check whether K-th bit is set or not](https://practice.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not/1)
+4. ^ [Count total set bits](https://practice.geeksforgeeks.org/problems/set-bits/0)
+    - [Explanation](https://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
+5. ^ [Bit Difference](https://practice.geeksforgeeks.org/problems/bit-difference/0)
+    - [Count no. of bits to be flipped to convert A to B](https://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
+6. @ [Number is sparse or not](https://practice.geeksforgeeks.org/problems/number-is-sparse-or-not/1)
+7. @ [Longest Consecutive 1's](https://practice.geeksforgeeks.org/problems/longest-consecutive-1s/1)
+8. @ [Gray Code](https://practice.geeksforgeeks.org/problems/gray-code/1)
+9. @ [Gray to Binary equivalent](https://practice.geeksforgeeks.org/problems/gray-to-binary-equivalent/1)
+10. [Power of 2](https://practice.geeksforgeeks.org/problems/power-of-2/1)
+11. [Swap all odd and even bits](https://practice.geeksforgeeks.org/problems/swap-all-odd-and-even-bits/0)
+    - [Explanation](https://www.geeksforgeeks.org/swap-all-odd-and-even-bits/)
+12. @ [Maximum AND Value](https://practice.geeksforgeeks.org/problems/maximum-and-value/1)
+
+## More problems
+1. [Count bits in a number](https://www.geeksforgeeks.org/count-total-bits-number/)
+2. ^ [Find one odd occuring element](https://practice.geeksforgeeks.org/problems/find-the-odd-occurence/0)
+    - [Explanation](https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)
+3. [Find two odd occuring element](https://www.geeksforgeeks.org/two-odd-occurring-elements-array-occur-even-times/)
+    - ^ [Finding the numbers](https://practice.geeksforgeeks.org/problems/finding-the-numbers/0)
+4. [Find two repeated elements](https://practice.geeksforgeeks.org/problems/two-repeated-elements/0)
+    - [Explanation](https://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/)
+5. [Find two missing elements](https://www.geeksforgeeks.org/find-two-missing-numbers-set-2-xor-based-solution/)
+6. @ [Find even occuring element](https://practice.geeksforgeeks.org/problems/even-occurring-elements/0)
+    - [Explanation](https://www.geeksforgeeks.org/find-even-occurring-elements-array-limited-range/)
+7. [Position of rightmost unset bit](https://www.geeksforgeeks.org/get-position-rightmost-unset-bit/)
+8. [Rightmost common bit of two numbers](https://www.geeksforgeeks.org/position-rightmost-common-bit-two-numbers/)
+9. ^ [Check all bits are set or not](https://practice.geeksforgeeks.org/problems/check-set-bits/0)
+10. [Generate power set](https://practice.geeksforgeeks.org/problems/power-set/0)
+    - [Bitwise method](https://www.geeksforgeeks.org/power-set/)
+    - [Other methods](https://www.geeksforgeeks.org/recursive-program-to-generate-power-set/)
+11. [Bleak numbers](https://practice.geeksforgeeks.org/problems/bleak-numbers/0)
+12. [Decimal to binary](https://practice.geeksforgeeks.org/problems/decimal-to-binary/0)
+13. [Binary to decimal](https://practice.geeksforgeeks.org/problems/binary-number-to-decimal-number/0)
+14. [Decimal to octal](https://www.geeksforgeeks.org/program-decimal-octal-conversion/)
+15. [Octal to decimal](https://www.geeksforgeeks.org/program-octal-decimal-conversion/)
+16. [Element appearing once](https://practice.geeksforgeeks.org/problems/element-appearing-once/0) [(Solution)](https://github.com/thecoducer/GeeksForGeeks_DSA_Course_Solutions/blob/master/Bit_Magic/More/element_appearing_once.cpp)
+17. [Find element that appears once rest appears thrice](http://javabypatel.blogspot.com/2015/09/find-number-that-appears-once.html) [(Solution)](https://github.com/thecoducer/GeeksForGeeks_DSA_Course_Solutions/blob/master/Bit_Magic/More/once_rest_thrice.cpp)
+
+## Solutions
+- For course problems, click [here](https://github.com/thecoducer/GeeksForGeeks_DSA_Course_Solutions/blob/master/Bit_Magic)
+- For more problems, click [here](https://github.com/thecoducer/GeeksForGeeks_DSA_Course_Solutions/tree/master/Bit_Magic/More).
+
+## Further reading
+- [Bit manipulation on HackerEarth](https://www.hackerearth.com/practice/notes/bit-manipulation/)
+- [Binary subsets](http://www.keithschwarz.com/binary-subsets/)

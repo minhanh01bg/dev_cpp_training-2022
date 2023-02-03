@@ -1,0 +1,15 @@
+﻿Sort các truy vấn theo giá trị ti + h[xi], với h là mảng độ sâu của các đỉnh trong đồ thị dạng cây. Dễ thấy rằng sau khi
+được sort, mỗi truy vấn sẽ chỉ bị ảnh hưởng bởi sự thay đổi do các truy vấn trước nó gây ra.
+
+Giả sử t[u] là thời điểm mà nút u sẽ nhận được thư trả lời mà nó đang đợi. Một bức thư được gửi từ nút xi sẽ bị dừng lại
+ở nút u nếu ti + (h[xi] - h[u]) < t[u] (vì khi đó nút u vẫn còn đang đợi thư về). Ta có thể biến đổi BĐT kia thành
+
+t[u] + h[u] > ti + h[xi]
+
+Khi đó vế trái sẽ chỉ phụ thuộc vào truy vấn đang xét, và vế phải sẽ chỉ phụ thuộc vào nút u.
+
+Từ những điều trên, ta có thuật toán O(nm): Từ nút xi, ta đi ngược lên các nút cha của nó, tìm nút đầu tiên thỏa mãn BĐT
+kia, in ra kết quả và thay đổi giá trị t của các nút trên đường đã đi. Để làm thuật toán nhanh hơn, ta phải dùng Heavy - 
+Light Decomposition, với cây Interval Tree lưu giữ các giá trị B[u] = t[u] + h[u] (mặc định B[0] = INFINITY).
+
+Độ phức tạp: O(n * log2(n) ^ 2)

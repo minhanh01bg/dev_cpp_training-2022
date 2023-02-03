@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<string.h>
+char s[1000000];
+int main(void) {
+	int t;
+	char c;
+	long l,m,f,i,flag,d,k,n,tmp;
+	scanf("%d",&t);
+	while(t--)
+	{
+	    getchar();
+		scanf("%[^\n]s",s);
+		l=strlen(s);
+		m=(long)(l/2);
+		flag=0;
+		c='0';
+		if(l%2==0)
+		{
+		    k=m-1;
+		    f=m;
+		}
+		else
+		{
+		    k=m-1;
+		    f=m+1;
+		}
+		    while(s[k]==s[f])
+		    {
+		        --k;
+		        ++f;
+		        if(k==-1)
+		        {
+		            flag=1;
+		            break;
+		        }
+		    }
+			if((flag==0) && s[k]>s[f])
+			{
+				for(i=0;i<m;i++)
+				s[l-1-i]=s[i];
+			}
+			else
+			{
+			    if(l%2==0)
+			    k=m-1;
+			    else
+			    k=m;
+			    n=0;
+               while(1)
+               {
+                 tmp=(int)(s[k]);
+                 f=tmp-47;
+                 d=f%10;
+                 n=f/10;
+                 s[k]=(char)(d+48);
+                 if(n==0)
+                 break;
+                 --k;
+                 if(k==-1)
+                 {
+                     if(n==1)
+                     c='1';
+                     break;
+                 }
+               }
+               for(i=0;i<m;i++)
+				s[l-1-i]=s[i];
+			}
+			 if(c=='0')
+		     printf("%s\n",s);
+		     else
+		     {
+		         printf("1");
+		         for(i=0;i<l-1;i++)
+		         printf("0");
+		         printf("1\n");
+		     }
+	}
+	return 0;
+}
